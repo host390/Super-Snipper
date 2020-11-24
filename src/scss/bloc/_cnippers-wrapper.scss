@@ -1,0 +1,218 @@
+
+
+
+
+.cnippers-wrapper {
+
+    &__section {
+        
+        position: relative;
+        width: 100%;
+        background-color: rgb(110, 107, 107);
+        border: solid 1px black;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        padding: 20px;
+        cursor: pointer;
+        
+    }
+
+}
+
+
+.section {
+
+    &__spoller {
+        padding-right: 210px;
+        position: relative;
+        margin-bottom: 30px;
+        &::before {  
+            content: '';
+            width: 30px;
+            height: 2px;
+            position: absolute;
+            top: 50%;
+            transform: translate(0px, -50%) rotate(0deg) scale(1, 1) skew(0deg, 0deg);
+            transform-origin: center;
+            right: 40px;
+            background: rgb(255, 174, 0)
+        }
+        &::after {  
+            content: '';
+            width: 2px;
+            height: 30px;
+            position: absolute;
+            top: 50%;
+            transform: translate(0px, -50%) rotate(0deg) scale(1, 1) skew(0deg, 0deg);
+            transform-origin: center;
+            right: 53px;
+            background-color: rgb(255, 174, 0);
+        }
+    }
+
+    &__content {
+        // display: none;
+    }
+
+    &__title {
+        margin: 0px 0px 12px 0px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #ffffff;
+    }
+
+    &__desc {
+        font-size: 16px;
+        line-height: 21px;
+        color: #ffffff;
+        p {
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__snip-cont {
+        position: relative;
+        width: 100%;
+        background-color: #ba5600;
+        border: solid 1px black;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+.cont-snip {
+
+    &__spoller {
+        padding-right: 210px;
+        position: relative;
+        
+        &::before {  
+            content: '';
+            width: 16px;
+            height: 2px;
+            position: absolute;
+            top: 50%;
+            transform: translate(0px, -50%) rotate(0deg) scale(1, 1) skew(0deg, 0deg);
+            transform-origin: center;
+            right: 40px;
+            background: rgb(95, 231, 31);
+        }
+        &::after {  
+            content: '';
+            width: 2px;
+            height: 16px;
+            position: absolute;
+            top: 50%;
+            transform: translate(0px, -50%) rotate(0deg) scale(1, 1) skew(0deg, 0deg);
+            transform-origin: center;
+            right: 47px;
+            background-color: rgb(95, 231, 31);
+        }
+    }
+
+    &__title {
+        color: black;
+        margin: 0px 0px 0px 0px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 29px;
+        // color: #ffffff;
+    }
+
+    &__desc {
+        color: black;
+        // margin: 0px 0px 12px 0px;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 29px;
+        margin-bottom: 10px;
+        p {
+            margin-bottom: 6px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__content {
+        // display: none;
+        position: relative;
+        width: 100%;
+        background-color: #c4bdbd;
+        border: solid 1px black;
+        border-radius: 4px;
+        // margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    &__example {
+        // background-color: #fff;
+        width: 50%;
+        margin-bottom: 20px;
+        border: 1px solid black;
+        padding: 5px;
+        position: relative;
+        top: 0;
+        left: 0;
+        max-height: 200px; 
+        overflow: hidden;
+        
+        &_min-height {
+            min-height: 200px;
+        }
+    }
+
+    &__test {
+    }
+
+    &__html {
+    }
+
+    &__css {
+    }
+
+    &__js {
+    }
+
+    &__cod {
+        
+    }
+}
+
+.cod-snip {
+
+    &__title {
+        color: black;
+        // margin: 0px 0px 12px 0px;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 29px;
+        &_html {
+            color: rgb(165, 16, 16);
+        }
+        &_css {
+            color: rgb(16, 105, 165);
+        }
+        &_js {
+            color: rgb(253, 249, 6);
+        }
+    }
+}
+
+.cnip {
+
+    &__box {
+    }
+}
+
+
+
+
+
+
+
